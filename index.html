@@ -3,21 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style src="./src/css/styles.css"></style>
-    <title>Document</title>
+    <link href="./src/css/styles.css" rel="stylesheet"></l>
+    <title>Slovinsko Trasy</title>
   </head>
-  <body>
+  <body class="p-8 w-full">
     <h1>Zdravo Slovenija!</h1>
-    <h2>Seznam tipů a tras na dovolenou Slovinsko 2024</h2>
-    <section>
-      <h2>Bohinjské jezero</h2>
-      <p></p>
+    <span>Seznam tipů a tras na dovolenou Slovinsko 2024</span>
+    <section class="w-full prose">
+      <h2 class="prose">Bohinjské jezero</h2>
+      <p>Neco o jezeru</p>
       <h3>Trasa pro auto</h3>
-      <div class="grid-cols-3">
-        <article class="border border-solid rounded-lg p-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  w-full">
+        <article>
           <h3>Lehká trasa</h3>
           <p>Něco o ní</p>
+          <iframe style="border:none" src="https://frame.mapy.cz/s/gedogocalu" class="w-full"  frameborder="0"></iframe>
         </article>
+        <article>
+          <h3>Lehká trasa</h3>
+          <p>Něco o ní</p>
+          <iframe style="border:none" src="https://frame.mapy.cz/s/gedogocalu" class="w-full"  frameborder="0"></iframe>
+        </article>
+  
       </div>
     </section>
   </body>
